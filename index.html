@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Udith Sandaruwan - Backend Alchemist!</title>
+    <link rel="icon" href="static/images/logo.png">
+  </head>
+  <body>
+    <button id="topButton" onclick="scrollToTop()">
+      <span class="arrow">Up</span>
+    </button>
+    <header>
+      <nav>
+        <div class="logo"><img src="static/images/logo.png" alt="abm logo" /></div>
+        <div class="navbar">
+          <div><a href="">Home</a></div>
+          <div><a href="#projects">Project</a></div>
+          <div><a href="#experience">Experience</a></div>
+          <div><a href="#footer">Contact</a></div>
+        </div>
+      </nav>
+    </header>
+    <section class="container about">
+      <div class="avatar">
+        <img src="static/images/avatar.png" alt="abm avatar" />
+      </div>
+      <div class="about-text">
+        <h1>Coding Creativity <br />Backend <span>Alchemist!</span></h1>
+        <p>
+          "I am a dedicated full-stack software engineer with 1 year of professional 
+          experience, specializing in backend development with a focus on Python. 
+          Proficient in crafting resilient and scalable SaaS-based architectures."
+        </p>
+        <div class="about-btn">
+          <button class="btn-primary"><a href="https://www.linkedin.com/in/udith-sandaruwan-8a2810259/" target="_blank">Get In Touch</a></button>
+          <button onclick="downloadPDF()" class="btn-secondary">Download CV</button>
+        </div>
+      </div>
+    </section>
+    <section class="container experience-with">
+      <h2>EXPERIENCE WITH</h2>
+      <div class="experience-with-lang">
+        <div><img src="static/images/html.png" alt="html logo" class="invert-image-icon" /></div>
+        <div><img src="static/images/css.png" alt="css logo" class="invert-image-icon" /></div>
+        <div><img src="static/images/js.png" alt="js logo" class="invert-image-icon" /></div>
+        <div><img src="static/images/python.png" alt="python logo" class="invert-image-icon" /></div>
+        <div><img src="static/images/django.png" alt="django logo" class="invert-image-icon" /></div>
+      </div>
+    </section>
+    <section id="projects" class="container">
+      <h2 class="primary-heading heading-project">PROJECTS</h2>
+      <div class="projects">
+        <div class="project-item">
+          <img src="static/images/project-01.png" alt="project1" />
+          <div class="project-title">
+            <p><a href="https://vibenet.world/home/" target="_blank">CLICK HERE TO VISIT</a></p>
+            <h3>VibeNet.World</h3>
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="static/images/project-02.png" alt="project2" />
+          <div class="project-title">
+            <p><a href="https://assetcate.com/" target="_blank">CLICK HERE TO VISIT</a></p>
+            <h3>Assetcate.com</h3>
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="static/images/project-03.png" alt="project3" />
+          <div class="project-title">
+            <p><a href="https://udithsandaruwan.github.io/our-Lanka/" target="_blank">CLICK HERE TO VISIT</a></p>
+            <h3>Our Lanka</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience" class="container">
+      <h2 class="primary-heading heading-experience">EXPERIENCE</h2>
+      <div class="experiences">
+        <div class="experience-item">
+          <div class="experience-title-container">
+            <div><img style="max-width: 33px" src="static/images/INLINE.png" alt="INLINE" /></div>
+            <div class="experience-title">Chief Executive Officer - Inline Workspace</div>
+            <div class="date">Jan 2024 - Present</div>
+          </div>
+          <p>
+            Currently serving as the Chief Executive Officer at Inline Workspace on 
+            a freelance basis in Sri Lanka. Responsibilities include overseeing 
+            web development projects and utilizing expertise in WordPress 
+            to ensure efficient and high-quality deliverables.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title-container">
+            <div><img style="max-width: 33px" src="static/images/Assetcate.png" alt="Assetcate" /></div>
+            <div class="experience-title">
+              Content Writer - Assetcate.com
+            </div>
+            <div class="date">Sep 2023 - Present</div>
+          </div>
+          <p>
+            Engaged in content writing and SEO activities at Assetcate.com on 
+            a contract basis, contributing to web development projects by 
+            providing expertise in WordPress, SEO strategies, and creating 
+            engaging web content.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title-container">
+            <div><img style="max-width: 33px" src="static/images/mooverly.png" alt="mooverly" /></div>
+            <div class="experience-title">Web Developer - Mooverly</div>
+            <div class="date">Jan 2023 - Apr 2023</div>
+          </div>
+          <p>
+            Worked part-time as a Web Developer at Mooverly (Pvt) Ltd, 
+            contributing to WordPress development projects. Responsibilities 
+            included designing and implementing website functionalities to 
+            enhance user experience.
+          </p>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title-container">
+            <div><img style="max-width: 33px" src="static/images/mooverly.png" alt="mooverly" /></div>
+            <div class="experience-title">Chief Operating Officer - Mooverly</div>
+            <div class="date">Jan 2023 - Apr 2023</div>
+          </div>
+          <p>
+            Served as the Chief Operating Officer for a 4-month period in a 
+            hybrid work environment in Sri Lanka. Responsibilities included 
+            strategic project management, ensuring smooth operations, and 
+            implementing efficient processes to enhance overall organizational performance.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          "I am a dedicated full-stack software engineer with 1 year of professional experience,
+           specializing in backend development with a focus on Python.
+           Proficient in crafting resilient and scalable SaaS-based architectures."
+        </p>
+        <div class="email-container">
+          <div><img src="static/images/email-icon.svg" alt="email" /></div>
+          <div>developer.udithsandaruwan@gmail.com</div>
+        </div>
+        <div class="social-links">
+          <div><a href="https://www.linkedin.com/in/udith-sandaruwan-8a2810259/">
+                <img style="max-width: 25px" src="static/images/linkedin.png" alt="linkedin" class="invert-image-icon" />
+              </a>
+          </div>
+          <div><a href="https://www.youtube.com/@UdithSandaruwan">
+                <img style="max-width: 25px" src="static/images/youtube.png" alt="youtube" class="invert-image-icon" />
+              </a>
+          </div>
+          <div><a href="https://github.com/UdithSandaruwan">
+                <img style="max-width: 25px" src="static/images/github.png" alt="github" class="invert-image-icon" />
+              </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
